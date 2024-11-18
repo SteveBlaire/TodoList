@@ -27,5 +27,5 @@ $sql = "CREATE TABLE  IF NOT EXISTS `tasks` (
 );";
 
 if(!mysqli_query($conn, $sql)){
-    die("");
+    die("error");
 }
