@@ -20,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edit Task</title>
+    <title>Modify Tasks</title>
     <style>
         * {
             margin: 0;
@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 </head>
 <body>
     <div class="edit-container">
-        <h2>Edit Task</h2>
+        <h2>Modify Task</h2>
 
         <!-- Edit task form -->
         <form method="POST" action="edit_task.php">
